@@ -1,3 +1,4 @@
+[![License: CC BY-NC-SA 4.0](https://img.shields.io/badge/License-CC_BY--NC--SA_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
 # minimal_surface
 This code implements the basic algorithm from [this paper](https://vision.in.tum.de/_media/spezial/bib/oswald_toeppe_cremers_cvpr12.pdf), which only computes optimal silhouette-consistent minimal surfaces of given volume with gradient descent on GPU:
 
@@ -58,10 +59,7 @@ Build Mex file:
 - `tol`: the stopping criterion by residual.
 - `tau`: the step size for gradient descent.
 
-## 5. License
-
-minimal_surface is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License, see [here](http://creativecommons.org/licenses/by-nc-sa/4.0/), with an additional request:
-
+## 5. Citation
 If you make use of the library in any form in a scientific publication, please refer to `https://github.com/zhenzhangye/minimal_surface` and cite following papers
 
 ```
